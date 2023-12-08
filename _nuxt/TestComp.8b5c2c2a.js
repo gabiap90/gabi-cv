@@ -1,0 +1,1 @@
+import{k as s,b as c,c as t,e,B as a}from"./entry.19987031.js";const r={},n={class:"damn-idk-some-class"},l=e("span",{style:{color:"red","background-color":"black"}},"Piece of shit",-1),d={style:{color:"green","background-color":"black"}};function _(o,i){return c(),t("div",n,[l,e("span",d,[a(o.$slots,"default")])])}const k=s(r,[["render",_]]);export{k as default};
