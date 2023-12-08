@@ -1,0 +1,1 @@
+import{k as o,B as n,b as s,c as r,g as a,w as c,C as l}from"./entry.85a6aebe.js";const _={};function d(e,f){const t=n("Nbutton");return s(),r("div",null,[a(t,{n:"red xl"},{default:c(()=>[l(e.$slots,"default")]),_:3})])}const m=o(_,[["render",d]]);export{m as default};
