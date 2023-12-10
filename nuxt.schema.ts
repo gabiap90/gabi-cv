@@ -2,7 +2,7 @@ import { field, group } from '@nuxthq/studio/theme'
 
 export default defineNuxtSchema({
     appConfig: {
-        content: group({
+        contact: group({
             title: 'Contacts',
             description: 'Your contacts and social media',
             fields: {
