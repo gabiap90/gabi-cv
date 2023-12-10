@@ -8,25 +8,25 @@
             <span>React</span>
         </div>
         <div class="title-3th">
-            <div>
+            <div v-if="contact.phone">
                 <span uk-icon="icon: receiver; ratio: 1"></span>
-                <a href="tel:0761030884">0761030884</a>
+                <a :href="`tel:${contact.phone}`">{{ contact.phone }}</a>
             </div>
-            <div>
+            <div v-if="contact.email">
                 <span uk-icon="icon: mail; ratio: 1"></span>
-                <a href="mailto:gabriel.projects90@proton.me">gabriel.projects90@proton.me</a>
+                <a :href="`mailto:${contact.email}`">{{ contact.email }}</a>
             </div>
-            <div>
+            <div v-if="contact.linkedin">
                 <span uk-icon="icon: linkedin; ratio: 1"></span>
-                <a href="https://www.linkedin.com/in/gabriel-apostol-135305140/">Linkdin</a>
+                <a :href="contact.linkedin">Linkedin</a>
             </div>
-            <div>
+            <div v-if="contact.github">
                 <span uk-icon="icon: github; ratio: 1"></span>
-                <a href="https://github.com/gabiap90">Github</a>
+                <a :href="contact.github">Github</a>
             </div>
-            <div>
+            <div v-if="contact.pdf">
                 <span uk-icon="file"></span>
-                <a href="./pdf/gabiap90_github_io.pdf">PDF</a>
+                <a :href="contact.pdf">PDF</a>
             </div>
         </div>
         <slot></slot>
@@ -37,13 +37,15 @@
 /* colors */
 const orange = ref("#f05a28");
 const gray = ref("rgb(102, 102, 102)");
+
+/* scoial links */
+const { contact } = useAppConfig()
 </script>
 
 <style lang="less" scoped>
 .uk-link,
 a {
     color: v-bind(gray);
-    // cursor: pointer;
 }
 
 header {

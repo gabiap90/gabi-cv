@@ -17,6 +17,24 @@ export default defineNuxtSchema({
                     type: 'string',
                     description: 'Link to your Linkedin',
                     default: undefined
+                }),
+                pdf: field({
+                    title: 'Cv-PDF',
+                    type: 'media',
+                    description: 'Link to this CV as pdf format',
+                    default: undefined
+                }),
+                phone: field({
+                    title: 'Phone',
+                    type: 'string',
+                    description: 'Phone',
+                    default: undefined
+                }),
+                github: field({
+                    title: 'Github',
+                    type: 'string',
+                    description: 'Phone',
+                    default: undefined
                 })
             }
         })

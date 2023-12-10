@@ -1,6 +1,9 @@
 export default defineAppConfig({
     contact: {
-        linkedin: '',
-        email: 'gabriel.projects90@proton.me'
+        linkedin: undefined,
+        email: 'gabriel.projects90@proton.me',
+        github: undefined,
+        pdf: undefined,
+        phone: undefined
     }
 })
