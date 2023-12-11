@@ -36,8 +36,8 @@ skills: ['REDUX', 'TYPESCRIPT', 'AGILE', 'NUXT', 'VUEX', 'PINIA', 'NODEJS', 'SOC
     ::
 
     ::project{location="University of Bucharest, Bucharest (Romania)" title="Bachelor degree in Computer Science" date="3 years"}
-    - Worked on the Frontend and UI/UX on a project made for a particular group of clients. Providing and implementing solutions for their needs.
-    - Implement Backend APIs in JAVA in concordance with Business requirements
+    
+    Subjects I've been passionate about: oriented object programming, functional programming, web development and their relationship to each other. My interest in these topics also extends to the exploration of web frameworks and other web technologies and their application
     ::
 ::
 
