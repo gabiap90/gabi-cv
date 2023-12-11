@@ -2,7 +2,7 @@ export default defineAppConfig({
   contact: {
     email: "gabriel.projects90@proton.me",
     github: "https://github.com/gabiap90",
-    pdf: "/favicon.ico",
+    pdf: '',
     phone: "0761030884",
     linkedin: "https://www.linkedin.com",
     cvTitle: 'Apostol Gabriel',
