@@ -1,0 +1,5 @@
+::project{title="Motivational letter"}
+I'm a passionate JavaScript web developer. Naturally, this comes with certain limitations. The vast array of frameworks available means there's insufficient time to acquire extensive experience in all. However, rest assured that where my framework experience may be lacking, I compensate with adaptability rooted in my prior experiences. I'm well-versed in fundamental web principles and constantly strive to stay abreast of industry developments within my available free time. My aim isn't to confine myself to a single framework; rather, I aspire to learn and adapt to multiple technologies and paradigms, depending on need. Similar to how programmers once did, even within the web landscape, despite the increasing standardization occurring each day.
+
+I'm looking forward to a discussion
+::
