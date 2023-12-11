@@ -1,11 +1,11 @@
 <template>
     <header>
-        <h1 class="title-1th title">Apostol Gabriel</h1>
+        <h1 class="title-1th title">{{ contact.cvTitle }}</h1>
         <div class="title-2th">
-            <slot></slot>
-            <span>Frontend Developer</span><span>&#8226;</span>
-            <span>Vue</span><span>&#8226;</span>
-            <span>React</span>
+            <span v-for="(role, index) in contact.cvRoles">
+                <span>{{ role }}</span>
+                <span v-if="index !== (contact.cvRoles.length - 1)">&#8226;</span>
+            </span>
         </div>
         <div class="title-3th">
             <div v-if="contact.phone">
@@ -34,18 +34,15 @@
 </template>
 
 <script lang="ts" setup>
-/* colors */
-const orange = ref("#f05a28");
-const gray = ref("rgb(102, 102, 102)");
+const { contact, theme } = useAppConfig();
+const { secTitleColor, generalFontColor } = theme
 
-/* scoial links */
-const { contact } = useAppConfig()
 </script>
 
 <style lang="less" scoped>
 .uk-link,
 a {
-    color: v-bind(gray);
+    color: v-bind(generalFontColor);
 }
 
 header {
@@ -67,8 +64,13 @@ header {
         }
     }
 
+    .title-2th>span{
+        margin: 0;
+    }    
+
     .title-2th {
-        color: v-bind(orange);
+        color: v-bind(secTitleColor);
+
     }
 }
 </style>

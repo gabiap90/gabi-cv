@@ -5,12 +5,12 @@ export default defineAppConfig({
     github: "https://github.com/gabiap90",
     pdf: "/favicon.ico",
     phone: "0761030884",
-    linkdin: "https://www.linkedin.com"
+    linkdin: "https://www.linkedin.com",
+    cvTitle: 'Apostol Gabriel',
+    cvRoles: ['Developer developer', 'react', 'vue']
   },
-
-  content: {
-    email: "",
-    github: "https://github.com/gabiap90",
-    phone: "0761030884"
+  theme: {
+    secTitleColor: '#f05a28',
+    generalFontColor: 'rgb(102, 102, 102)'
   }
 })
