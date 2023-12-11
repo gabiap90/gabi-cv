@@ -56,7 +56,7 @@ export default defineNuxtSchema({
                 }),
                 pdf: field({
                     title: 'Cv-PDF',
-                    type: 'media',
+                    type: 'string',
                     description: 'Link to this CV as pdf format',
                     default: undefined
                 }),

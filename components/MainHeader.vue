@@ -4,7 +4,7 @@
         <div class="title-2th">
             <span v-for="(role, index) in contact.cvRoles">
                 <span>{{ role }}</span>
-                <span v-if="index !== (contact.cvRoles.length - 1)">&#8226;</span>
+                <span v-if="contact?.cvRoles && index !== (contact?.cvRoles.length - 1)">&#8226;</span>
             </span>
         </div>
         <div class="title-3th">
@@ -26,7 +26,7 @@
             </div>
             <div v-if="contact.pdf">
                 <span uk-icon="file"></span>
-                <a :href="contact.pdf">PDF</a>
+                <a :href="contact.pdf" download="">PDF</a>
             </div>
         </div>
         <slot></slot>
