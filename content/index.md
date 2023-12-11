@@ -5,10 +5,10 @@ mainSkills: ['VUE', 'JAVASCRIPT', 'REACT']
 skills: ['REDUX', 'TYPESCRIPT', 'AGILE', 'NUXT', 'VUEX', 'PINIA', 'NODEJS', 'SOCKETS', 'TAILWIND CSS', 'VITE', 'WEBPACK', 'JIRA', 'BOOTSTRAP', 'UIKIT', 'RUBY ON RAILS', 'MONGODB', 'UNIT TESTING', 'INTEGRATION TESTING', 'CYPRESS', 'LINUX', 'GIT', 'PYTHON', 'DJANGO', 'MVC', 'REST', 'OOP', 'OJET']
 ---
 
-::category{title="Skills" icon="laptop"}
+::category{title="Work & Education" icon="laptop"}
     ::project{location="Whitestone software, Bucharest (Romania)" title="Senior frontend developer" date="1 Martie 2023 - Present"}
-    - Role: Apart from working on the required programming tasks, I am actively participating in discussions and giving inputs on the project's complex architecture, write information about the prioritizing of the tasks by providing story points and easily-understood explanations for non-technical persons. Work closely with others to integrate and share knowledge about different parts of the project.
-    - Technologies: Javascript, React, Redux, Webpack/Vite (bundle jobs) , Jira, Azure, Websockets
+    - Role: Based on my previous experiences and my passion for learning, I engaged myself in **leading the architecture of a React application** project. This journey led me to architect the application from the ground up and oversee a significant portion of the team, while testing the ground by **coding the core features**. I integrated a substantial portion of the business logic into the project while **establishing essential workflows and tools for the team**. Collaborating with fellow team members, I deliberated on **optimization techniques and clean coding methodologies** to ensure the project remained both **swift and scalable**.
+    - Tasks & Technologies: Javascript, React, Redux-toolkit, Webpack/Vite (bundle jobs) , Jira, Azure, Websockets, REST, Tasks administration, 
     - Work methodology: Agile, Kanban
     ::
 
@@ -41,7 +41,9 @@ skills: ['REDUX', 'TYPESCRIPT', 'AGILE', 'NUXT', 'VUEX', 'PINIA', 'NODEJS', 'SOC
     ::
 ::
 
-::skills{:skills="skills" :main-skills="mainSkills"}
+::category{title="Skills" icon="laptop"}
+  ::skills{:skills="skills" :main-skills="mainSkills"}
+  ::
 ::
 
 ::category{title="Projects" icon="git-branch"}
