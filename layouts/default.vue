@@ -1,5 +1,5 @@
 <template>
-    <div class="default-layout">
+    <div class="uk-grid uk-flex uk-flex-center">
         <slot />
     </div>
 </template>

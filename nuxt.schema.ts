@@ -17,6 +17,12 @@ export default defineNuxtSchema({
                     type: 'string',
                     description: 'Font color for everything beside main titles',
                     default: 'rgb(102, 102, 102)'
+                }),
+                bodyClasses: field({
+                    title: 'Body classes',
+                    type: 'array',
+                    description: 'uk-width-3-4@xl uk-width-3-5@l uk-width-3-4@m uk-width-3-4@s check more uikit',
+                    default: ['uk-width-3-4@l']
                 })
             }
         }),
@@ -33,7 +39,7 @@ export default defineNuxtSchema({
                 cvRoles: field({
                     title: 'Cv roles',
                     descriptions: 'Roles defined at the top of the CV',
-                    type: "array"
+                    type: "array",
                     default: []
                 }),
                 email: field({
