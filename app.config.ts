@@ -4,7 +4,7 @@ export default defineAppConfig({
     github: "https://github.com/gabiap90",
     pdf: '',
     phone: "0761030884",
-    linkedin: "https://www.linkedin.com",
+    linkedin: 'https://www.linkedin.com/in/gabriel-apostol-135305140/',
     cvTitle: 'Apostol Gabriel',
     cvRoles: ['Web developer', 'react', 'vue']
   },
