@@ -7,7 +7,7 @@ skills: ['REDUX', 'TYPESCRIPT', 'AGILE', 'NUXT', 'VUEX', 'PINIA', 'NODEJS', 'SOC
 
 ::category{title="Work & Education" icon="laptop"}
     ::project{location="Whitestone software, Bucharest (Romania)" title="Senior frontend developer" date="1 Martie 2023 - Present"}
-    - Role: Based on my previous experiences, I engaged myself in **leading the architecture of a React application** project. This journey led me to architect the application from the ground up and oversee a significant portion of the team, while testing the ground by **coding the core features**. I integrated a substantial portion of the business logic into the project while **establishing essential workflows and tools for the team**. Collaborating with fellow team members, I deliberated on **optimization techniques and clean coding methodologies** to ensure the project remained both **swift and scalable**.
+    - Role: Based on my previous experiences, I engaged myself in **leading the architecture of a React application**. This journey led me to architect the application from the ground up and oversee a significant portion of the team, while testing the ground by **coding the core features**. I integrated a substantial portion of the business logic into the project while **establishing essential workflows and tools for the team**. Collaborating with fellow team members, I deliberated on **optimization techniques and clean coding methodologies** to ensure the project remained both **swift and scalable**.
     - Tasks & Technologies: Javascript, React, Redux-toolkit, Webpack/Vite (bundle jobs) , Jira, Azure, Websockets, REST, Tasks administration, 
     - Work methodology: Agile, Kanban
     ::
