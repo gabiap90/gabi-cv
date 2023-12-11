@@ -1,5 +1,5 @@
 ---
-title: 'Title of the page'
+title: 'Apostol Gabriel'
 description: 'meta description of the page'
 mainSkills: ['VUE', 'JAVASCRIPT', 'REACT']
 skills: ['REDUX', 'TYPESCRIPT', 'AGILE', 'NUXT', 'VUEX', 'PINIA', 'NODEJS', 'SOCKETS', 'TAILWIND CSS', 'VITE', 'WEBPACK', 'JIRA', 'BOOTSTRAP', 'UIKIT', 'RUBY ON RAILS', 'MONGODB', 'UNIT TESTING', 'INTEGRATION TESTING', 'CYPRESS', 'LINUX', 'GIT', 'PYTHON', 'DJANGO', 'MVC', 'REST', 'OOP', 'OJET']
