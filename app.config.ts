@@ -6,7 +6,12 @@ export default defineAppConfig({
     phone: "0761030884",
     linkedin: 'https://www.linkedin.com/in/gabriel-apostol-135305140/',
     cvTitle: 'Apostol Gabriel',
-    cvRoles: ['Web developer', 'react', 'vue']
+    cvRoles: [
+      'Front-End Software Engineer',
+      'Full Stack Software Engineer',
+      'React',
+      'Vue'
+    ]
   },
   theme: {
     secTitleColor: '#f05a28',
